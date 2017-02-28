@@ -67,13 +67,30 @@ In this lab, you will import data to Excel from a flat csv file. You will perfor
 - Exercise 2: Create Pivot Table(s) to Perform Analysis
 
 ----
-### Module 4:
+### Module 4: Importing Data from Databases
+- Importing Data from Databases
+  - import multiple tables from a SQL database, and create an Excel data model from the imported data
+  - data sources included as built-in options for queries (e.g. SharePoint list, Hadoop file, Active Directory, Salesforce Objects)
+- Importing Data from Multiple Files
+  - initial step you need to do in the Query Editor before loading the data into the Excel data model
+  > Filter the header from the three other CSV files.
 
-• Learn how to import multiple tables from a SQL database, and create an Excel data model from the
-imported data.
-• Create a mash-up between data from text-files and data from a SQL database.
+- Creating and using a Calendar Table in a data model
+  - Two ways to create a calendar table in Excel 2016:
+    - New Date Table function from the Design tab of the Power Pivot for Excel window
+    - create a calendar table in the worksheet and add it to the Excel data model
+  - Purposes of using a calendar table in a data model:
+    - filter data by year, month, or week
+    - perform advanced calculations such as year-over-year comparison
 
-#### Lab 4:
+#### Lab 4: Creating Mash-ups of Data from Multiple Sources
+This lab comprises of three exercises:
+In the first exercise, you will import data to Microsoft Excel from a SQL database on Azure. Once you have imported the data, you will explore existing table relationships and create a new one yourself.
+In the second exercise, you will import data from CSV files which resides in a file folder. You will append this new data to the corresponding existing data that comes from the SQL Database.
+In the third exercise, you will create a Date table in the data model to be used for data analysis.
+-  Exercise 1: Import Data from SQL Database and Create Table Relationship
+- Exercise 2: Import Data from a Folder Containing CSV Files
+- Exercise 3: Create a Date Table
 
 ----
 ### Module 5:
