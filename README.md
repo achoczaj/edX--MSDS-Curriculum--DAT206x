@@ -96,7 +96,7 @@ In the third exercise, you will create a Date table in the data model to be used
 ### Module 5: Creating and Formatting Measures
 - Creating and Formatting Measures using DAX functions
   - [SUM function](https://msdn.microsoft.com/en-us/library/ee634387.aspx)
-  > e.g. fx_Total_Revenue:= SUM(FactInternetSales[Revenue]))]
+    > e.g. fx_Total_Revenue:= SUM(FactInternetSales[Revenue]))]
   - [SUMX function](https://support.office.com/en-us/article/SUMX-Function-DAX-9ca68d1f-34cd-4a98-bc5c-36646118811a?ui=en-US&rs=en-US&ad=US)
   > e.g. fx_Total_Revenue:= SUMX(FactInternetSales, FactInternetSales[Quantity] * FactInternetSales[List Price])
   - [CALCULATE function](https://support.office.com/en-us/article/CALCULATE-Function-DAX-19654BC2-AA88-4F6C-A0B9-6FA7A59C4432)
@@ -124,10 +124,10 @@ In this lab, you will write several DAX expressions to create measures to be use
 - Total VanArsdel Sales: calculates sales for VanArsdel manufactured goods.
 - % Sales Market Share: calculates the percentage of VanArsdel manufactured goods from the total sales.
 - Exercise 1: Last Year Comparison
-> Total Units: Total Units:=SUM([Units])
-> LY Total Units: LY Total Units:=CALCULATE([Total Units],SAMEPERIODLASTYEAR('Calendar'[Date]))
-> Total Units Var: Total Units Var:=[Total Units]-[LY Total Units]
-> Total Units Var %: Total Units Var %:=DIVIDE([Total Units Var],[LY Total Units])
+  > Total Units: Total Units:=SUM([Units])
+  > LY Total Units: LY Total Units:=CALCULATE([Total Units],SAMEPERIODLASTYEAR('Calendar'[Date]))
+  > Total Units Var: Total Units Var:=[Total Units]-[LY Total Units]
+  > Total Units Var %: Total Units Var %:=DIVIDE([Total Units Var],[LY Total Units])
 
 - Exercise 2: Year to Date
 > YTD Total Units: YTD Total Units:=TOTALYTD([Total Units],'Calendar'[Date])
