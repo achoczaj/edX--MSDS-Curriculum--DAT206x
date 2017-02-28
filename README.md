@@ -109,7 +109,7 @@ In the third exercise, you will create a Date table in the data model to be used
 
   - [DIVIDE function](https://support.office.com/en-us/article/DIVIDE-Function-DAX-515D058C-7160-49D2-B066-E220C2577D91)
 
-    > fx_TotalUnits_Var_% := DIVIDE([Total Units Var], [LY Total Units])
+    > e.g. fx_TotalUnits_Var_% := DIVIDE([Total Units Var], [LY Total Units])
 
 - Using Advanced DAX Functions
   - [ALL function]( https://support.office.com/en-us/article/ALL-Function-DAX-331FABFC-FE7A-4072-90D1-9DECBE831C89)
@@ -156,9 +156,28 @@ Exercises:
   > % OwnBrand Units Market Share: % Units Market Share:=IF([Total VanArsdel Units]=0, 0, DIVIDE([Total VanArsdel Units], [Total Units], 0))
 
 ----
-### Module 6:
+### Module 6: Importing Data from a Formatted Excel Report
+- Features in Query Editor
+  - using First Row As Headers feature in Query Editor to create table headers from one of the rows
+  - using Unpivot Columns feature to transform selected columns into attribute-value pairs
+  - using Filters feature to remove rows based on their values
 
-#### Lab 6:
+#### Lab 6: Advanced Text Query
+In this lab, you will import data from a formatted Excel file to a blank Excel file.
+- Exercise 1: Import Data from a Formatted Excel File
+  1. Import the data from the Excel file (“Lab 6 – Industry Report.xlsx”) by creating a new Query.
+  2. Edit the query and perform the following steps:
+    - Name the Query IndustryReport.
+    - Remove the first and second rows of the table.
+    - Promote the row that represents the title of the column to the table headers.
+    - Fill the Category column with the correct categories.
+    - Remove all the rows that represent total values.
+    - Remove the remaining rows that do not represent data.
+    - Remove the column that represent total values.
+    - Remove the remaining columns that do not represent data.
+    - Transform the monthly columns to rows and name the resulting columns appropriately.
+    - Rename the resulting columns appropriately.
+    3. Load the data into Excel data model.
 
 ----
 ### Module 7:
