@@ -109,7 +109,7 @@ In the third exercise, you will create a Date table in the data model to be used
 
   - [DIVIDE function](https://support.office.com/en-us/article/DIVIDE-Function-DAX-515D058C-7160-49D2-B066-E220C2577D91)
 
-  > fx_TotalUnits_Var_% :=DIVIDE([Total Units Var],[LY Total Units])
+  > fx_TotalUnits_Var_% := DIVIDE([Total Units Var], [LY Total Units])
 
 - Using Advanced DAX Functions
   - [ALL function]( https://support.office.com/en-us/article/ALL-Function-DAX-331FABFC-FE7A-4072-90D1-9DECBE831C89)
@@ -130,20 +130,29 @@ In this lab, you will write several DAX expressions to create measures to be use
 - YTD Sales Var %: calculates sales variance between this year and last year YTD sales in percentage.
 - Total VanArsdel Sales: calculates sales for VanArsdel manufactured goods.
 - % Sales Market Share: calculates the percentage of VanArsdel manufactured goods from the total sales.
+
+
 - Exercise 1: Last Year Comparison
-  > Total Units: Total Units:=SUM([Units])
-  > LY Total Units: LY Total Units:=CALCULATE([Total Units],SAMEPERIODLASTYEAR('Calendar'[Date]))
-  > Total Units Var: Total Units Var:=[Total Units]-[LY Total Units]
-  > Total Units Var %: Total Units Var %:=DIVIDE([Total Units Var],[LY Total Units])
+> Total Units: Total Units:=SUM([Units])
+
+> LY Total Units: LY Total Units:=CALCULATE([Total Units],SAMEPERIODLASTYEAR('Calendar'[Date]))
+
+> Total Units Var: Total Units Var:=[Total Units]-[LY Total Units]
+
+> Total Units Var %: Total Units Var %:=DIVIDE([Total Units Var],[LY Total Units])
 
 - Exercise 2: Year to Date
 > YTD Total Units: YTD Total Units:=TOTALYTD([Total Units],'Calendar'[Date])
+
 > LY YTD Total Units: LY YTD Total Units:=CALCULATE([YTD Total Units],SAMEPERIODLASTYEAR('Calendar'[Date]))
+
 > YTD Total Units Var: YTD Total Units Var:=[YTD Total Units]-[LY YTD Total Units]
+
 > YTD Total Units Var %: YTD Total Units Var %:=DIVIDE([YTD Total Units Var],[LY YTD Total Units])
 
 - Exercise 3: Own Brand (VanArsdel) Sale  Market Share
 > Total OwnBrand Units: Total VanArsdel Units:=CALCULATE([Total Units], Manufacturer[Manufacturer]="VanArsdel")
+
 > % OwnBrand Units Market Share: % Units Market Share:=IF([Total VanArsdel Units]=0, 0, DIVIDE([Total VanArsdel Units], [Total Units], 0))
 
 ----
