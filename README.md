@@ -165,7 +165,7 @@ Exercises:
 #### Lab 6: Advanced Text Query
 In this lab, you will import data from a formatted Excel file to a blank Excel file.
 - Exercise 1: Import Data from a Formatted Excel File
-  1. Import the data from the Excel file (“Lab 6 – Industry Report.xlsx”) by creating a new Query.
+  1. Import the data from the Excel file by creating a new Query.
   2. Edit the query and perform the following steps:
     - Name the Query IndustryReport.
     - Remove the first and second rows of the table.
@@ -177,7 +177,7 @@ In this lab, you will import data from a formatted Excel file to a blank Excel f
     - Remove the remaining columns that do not represent data.
     - Transform the monthly columns to rows and name the resulting columns appropriately.
     - Rename the resulting columns appropriately.
-    3. Load the data into Excel data model.
+  3. Load the data into Excel data model.
 
 ----
 ### Module 7:
