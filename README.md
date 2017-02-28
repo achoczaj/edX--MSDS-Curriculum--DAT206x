@@ -17,14 +17,83 @@ The course is designed for self-paced study of around 2-4 hours per week for six
 - Explore an Excel data model, its content, and its structure, using the Power Pivot add-in.
 - Create DAX expressions for calculated columns and measures.
 
-#### Lab 1: Explore and Extend a Classic Excel Dashboard > Applying Conditional Formatting
+#### Lab 1: Explore and Extend a Classic Excel Dashboard
+See the "Dashboard - CA" worksheet, showing six pivot charts of different types, with associated slicers to filter the data. Play around with the slicers to select different filters and see how your choices affect the charts. Unhide the hidden worksheets to view the data source of the charts.
+- Exercise 1: Explore the Classic Excel Dashboard
+-  Exercise 2: Extend the Classic Excel Dashboard
 
 ----
 ### Module 2: The Excel Data Model
- 
+- Build a Excel Data Model from a single flat table
+  - use queries (Power Query add-in in Excel 2013 and Excel 2010)
+  - create a calculated column on a table in Excel Data Model
+- Manage Excel Data Model
+  - Diagram view of Excel Data Model
+  - Types of relationships supported in the Excel Data Model
+- Basic Data Analysis Expressions (DAX)
+  - use DAX in Calculated columns
+  - use DAX in Measures (in Excel 2013, measures are called calculated fields)
+  > Measure (in Excel) is A calculation that you create for the purpose of measuring an outcome or result relative to other factors.
+
+  - create implicit measures
+  > An implicit measure is one that Excel generates for you when you add fields to the Values area of a pivot table.
+
+  - create explicit measures
+  > An explicit measure is one that you create manually using e.g. DAX.
+
+  - RELATED function (DAX)
+  > RELATED function (DAX) returns a single value that is related to the current row from another table.
+
+
+#### Lab 2:
+In this lab, you will explore an Excel workbook that has a data model loaded into it. You will also create calculated columns in the data model, apply formatting, and create implicit and explicit measures. You will then use the data model to create pivot tables and perform some analysis with the data.
+- Exercise 1: Explore the Excel Data Model
+- Exercise 2: Create a Pivot Table
+- Exercise 3: Create Measures
+
+----
 ### Module 3:
+
+• Learn how to import multiple tables from a SQL database, and create an Excel data model from the
+imported data.
+• Create a mash-up between data from text-files and data from a SQL database.
+
+#### Lab 3:
+
+----
 ### Module 4:
+
+#### Lab 4:
+
+----
 ### Module 5:
+
+#### Lab 5:
+
+----
 ### Module 6:
+
+#### Lab 6:
+
+----
 ### Module 7:
+
+#### Lab 7:
+
+----
 ### Module 8:
+
+#### Lab 8:
+
+----
+## My notes
+
+Course Progress for Student 'achoczaj'
+
+Your enrollment: Audit track
+
+Course start: 2017.02.20
+
+Course end: 2017.
+
+Course progress: Total result = %
