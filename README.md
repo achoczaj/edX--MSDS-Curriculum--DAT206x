@@ -14,8 +14,6 @@ The course is designed for self-paced study of around 2-4 hours per week for six
   - Use VLOOKUP to combine data into one range.
   - Connect a slicer with pivot tables and pivot charts components.
   - Conditionally format cells.
-- Explore an Excel data model, its content, and its structure, using the Power Pivot add-in.
-- Create DAX expressions for calculated columns and measures.
 
 #### Lab 1: Explore and Extend a Classic Excel Dashboard
 See the "Dashboard - CA" worksheet, showing six pivot charts of different types, with associated slicers to filter the data. Play around with the slicers to select different filters and see how your choices affect the charts. Unhide the hidden worksheets to view the data source of the charts.
@@ -45,23 +43,35 @@ See the "Dashboard - CA" worksheet, showing six pivot charts of different types,
   > RELATED function (DAX) returns a single value that is related to the current row from another table.
 
 
-#### Lab 2:
+#### Lab 2: Explore an Excel Data Model
 In this lab, you will explore an Excel workbook that has a data model loaded into it. You will also create calculated columns in the data model, apply formatting, and create implicit and explicit measures. You will then use the data model to create pivot tables and perform some analysis with the data.
 - Exercise 1: Explore the Excel Data Model
 - Exercise 2: Create a Pivot Table
 - Exercise 3: Create Measures
 
 ----
-### Module 3:
+### Module 3:  Importing Data from a CSV File to Data Model (a PDF using Flash Fill)
+- Importing Data from a CSV / XML File to Data Model
+  - data pre-processing steps recorded in the Query Editor: Remove columns, Split column, Replace values
+
+- Remarks on Using Excel 2010 to import data
+  > In Excel 2010, you cannot bring the data directly to Power Pivot using Power Query. When you import data using Power Query, you can either import to Excel worksheet or only create a connection. And then, from the Power Pivot ribbon you can use Create Linked Table to add the table to the Power Pivot model.
+
+- Importing Data from a PDF to Data Model using Flash Fill
+  > To learn more about Flash Fill, check out the following resource: https://support.office.com/en-za/article/Flash-Fill-3fb96b4a-ee83-4493-af45-6522324477bd
+
+
+#### Lab 3: Importing Data from a CSV File
+In this lab, you will import data to Excel from a flat csv file. You will perform pre-processing steps with the data prior to loading it into Excel.
+- Exercise 1: Import Data from a CSV File
+- Exercise 2: Create Pivot Table(s) to Perform Analysis
+
+----
+### Module 4:
 
 • Learn how to import multiple tables from a SQL database, and create an Excel data model from the
 imported data.
 • Create a mash-up between data from text-files and data from a SQL database.
-
-#### Lab 3:
-
-----
-### Module 4:
 
 #### Lab 4:
 
