@@ -96,12 +96,19 @@ In the third exercise, you will create a Date table in the data model to be used
 ### Module 5: Creating and Formatting Measures
 - Creating and Formatting Measures using DAX functions
   - [SUM function](https://msdn.microsoft.com/en-us/library/ee634387.aspx)
-    > e.g. fx_Total_Revenue:= SUM(FactInternetSales[Revenue]))]
+
+  > e.g. fx_Total_Revenue:= SUM(FactInternetSales[Revenue]))]
+
   - [SUMX function](https://support.office.com/en-us/article/SUMX-Function-DAX-9ca68d1f-34cd-4a98-bc5c-36646118811a?ui=en-US&rs=en-US&ad=US)
+
   > e.g. fx_Total_Revenue:= SUMX(FactInternetSales, FactInternetSales[Quantity] * FactInternetSales[List Price])
+
   - [CALCULATE function](https://support.office.com/en-us/article/CALCULATE-Function-DAX-19654BC2-AA88-4F6C-A0B9-6FA7A59C4432)
+
   > e.g. fx_TotRevenue_OnlyVanArsdelSale:=  CALCULATE([TotalRevenue], Manufacturer[Manufacturer]=”VanArsdel”)
+
   - [DIVIDE function](https://support.office.com/en-us/article/DIVIDE-Function-DAX-515D058C-7160-49D2-B066-E220C2577D91)
+
   > fx_TotalUnits_Var_% :=DIVIDE([Total Units Var],[LY Total Units])
 
 - Using Advanced DAX Functions
